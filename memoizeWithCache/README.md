@@ -16,3 +16,7 @@ memoizePromiseFn는 api 호출을 지역 변수로 캐싱하는 고차함수입�
 ### 참고자료
 
 - [Cache API Calls in JavaScript by Memoizing Promises](https://hackernoon.com/cache-api-calls-in-javascript-by-memoizing-promises)
+
+# Next
+
+- [Using microtasks in JavaScript with queueMicrotask()](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide)
