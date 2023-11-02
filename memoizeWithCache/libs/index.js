@@ -1,6 +1,8 @@
 import fetchTodo from "./apis/fetchTodo.api";
+
 import memoizePromiseFn from "./helpers/memoizePromiseFn.helper";
-import get from "./helpers/getElem.helper";
+
+import get from "./hooks/getElem.hook";
 
 (function () {
   "use strict";
