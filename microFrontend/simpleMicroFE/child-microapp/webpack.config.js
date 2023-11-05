@@ -44,7 +44,7 @@ module.exports = (_, argv) => ({
       name: "child_microapp",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: { "./Counter": "./src/components/Counter" },
       shared: {
         ...deps,
         react: {
