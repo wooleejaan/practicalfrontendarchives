@@ -17,6 +17,16 @@ child-microapp는 export하는 주체입니다.
 - [create-mf-app](https://github.com/jherr/create-mf-app)
 - ts는 부족한 부분이 아직 많으므로 js 버전을 사용해줍니다.
 
+## 튜토리얼 상세 설명
+
+yw-playgrounds 내부 [마이크로 프론트엔드 기초 튜토리얼 문서](https://github.com/wooleejaan/yw-playgrounds/blob/main/__architecture/_micro-frontend/basic-tutorial/_.md)를 참고.
+
 ## 참고자료
 
 - [Micro Frontend components with React Module federation](https://medium.com/@ian.rolfe/micro-frontend-components-with-react-module-federation-cc2b701058a6)
+
+## More
+
+여러 언어를 쪼갤 경우, iframes를 사용할 수 있다.
+
+- [Learn About Micro Frontends with React iframes](https://blog.stackademic.com/learn-about-micro-frontends-with-react-iframes-8599fd92a1a3)
