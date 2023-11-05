@@ -9,7 +9,7 @@
 parent-microapp는 import해오는 주체이며,<br>
 child-microapp는 export하는 주체입니다.
 
-- parent-microapp에서는 remotes를 설정해주고
+- parent-microapp에서는 remotes를 설정해주고 (remotes로 마이크로앱을 가져올 때, 마이크로앱의 name을 정확히 가져와야 합니다.)
 - child-microapp에서는 exposes를 설정해줍니다.
 
 간단한 연습을 위해 `create-react-app` 대신 `create-mf-app`을 사용합니다.
