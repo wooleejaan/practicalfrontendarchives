@@ -16,3 +16,7 @@ child-microapp는 export하는 주체입니다.
 
 - [create-mf-app](https://github.com/jherr/create-mf-app)
 - ts는 부족한 부분이 아직 많으므로 js 버전을 사용해줍니다.
+
+## 참고자료
+
+- [Micro Frontend components with React Module federation](https://medium.com/@ian.rolfe/micro-frontend-components-with-react-module-federation-cc2b701058a6)
