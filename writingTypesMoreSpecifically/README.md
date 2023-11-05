@@ -1,4 +1,4 @@
-# Writing types more specifically
+# Writing Types More Specifically
 
 ## 참고자료
 
