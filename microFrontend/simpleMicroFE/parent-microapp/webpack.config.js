@@ -43,7 +43,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "parent_microapp",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        child_microapp: "child_microapp@http://localhost:3001/remoteEntry.js",
+      },
       exposes: {},
       shared: {
         ...deps,
