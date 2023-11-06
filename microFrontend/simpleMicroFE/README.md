@@ -27,6 +27,7 @@ yw-playgrounds 내부 [마이크로 프론트엔드 기초 튜토리얼 문서](
 
 ## More
 
-여러 언어를 쪼갤 경우, iframes를 사용할 수 있다.
+여러 언어를 쪼갤 경우, iframe을 사용하는 것도 방법이다.
 
 - [Learn About Micro Frontends with React iframes](https://blog.stackademic.com/learn-about-micro-frontends-with-react-iframes-8599fd92a1a3)
+- [Micro-frontends with iframes and react components](https://github.com/maxbax/micro-frontend-iframe)
