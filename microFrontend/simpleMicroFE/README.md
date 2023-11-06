@@ -31,3 +31,5 @@ yw-playgrounds 내부 [마이크로 프론트엔드 기초 튜토리얼 문서](
 
 - [Learn About Micro Frontends with React iframes](https://blog.stackademic.com/learn-about-micro-frontends-with-react-iframes-8599fd92a1a3)
 - [Micro-frontends with iframes and react components](https://github.com/maxbax/micro-frontend-iframe)
+- [Iframe Microfrontends: Make React App Proper Iframe](https://dev.to/bwca/iframe-microfrontends-make-react-app-proper-iframe-12g9)
+- [demo_iframe-micro-frontends](https://github.com/Bwca/demo_iframe-micro-frontends)
