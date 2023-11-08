@@ -19,7 +19,7 @@ child-microapp는 export하는 주체입니다.
 
 ## 튜토리얼 상세 설명
 
-yw-playgrounds 내부 [마이크로 프론트엔드 기초 튜토리얼 문서](https://github.com/wooleejaan/yw-playgrounds/blob/main/__architecture/_micro-frontend/basic-tutorial/_.md)를 참고.
+yw-playgrounds 내부 [마이크로 프론트엔드 기초 튜토리얼 문서](https://github.com/wooleejaan/yw-playgrounds/blob/main/__programming/architecture/micro-frontend/basic-tutorial/_.md)를 참고.
 
 ## 참고자료
 
