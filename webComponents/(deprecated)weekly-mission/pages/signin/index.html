@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- pretendard.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pretendard/1.3.6/static/pretendard.css"
+      integrity="sha512-IjPRngqxme31T3qawYHBWWWg6X+UXc8xNdNqYf1eVDuxHoFGELPYvxld4wBu+2uM716XiTS72VIoGB0ywrYoTg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/css/common.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" defer src="app.js"></script>
+    <title>Codeit Weekly Mission</title>
+  </head>
+  <body>
+    <section class="forms">
+      <div class="form signin">
+        <div class="form-content">
+          <a class="form-logo" href="/">
+            <img
+              src="/static/public/linkbrary-signin-logo.svg"
+              alt="Linkbrary Logo"
+            />
+          </a>
+
+          <form>
+            <div class="signup-link">
+              <span>회원이 아니신가요?</span>
+              <a href="/pages/signup">회원 가입하기</a>
+            </div>
+
+            <div class="input-field email">
+              <label for="email">이메일</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="이메일을 입력하세요."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="input-field password">
+              <label for="password">비밀번호</label>
+              <div class="input">
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="비밀번호를 입력하세요."
+                  autocomplete="off"
+                />
+                <i class="bx bx-hide eye-icon"></i>
+              </div>
+            </div>
+
+            <div class="btn-field">
+              <button>로그인</button>
+
+              <div class="password-link">
+                <a href="/pages/forgot-password"> 비밀번호 찾기 </a>
+              </div>
+            </div>
+
+            <div class="sns-field">
+              <span>소셜 로그인</span>
+              <div class="sns-link">
+                <a class="google" href="https://www.google.com/">
+                  <img src="/static/public/google-icon.svg" alt="Google Icon" />
+                </a>
+                <a class="kakao" href="https://www.kakaocorp.com/page/">
+                  <img src="/static/public/kakao-icon.svg" alt="Kakao Icon" />
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
