@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slots</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        ::slotted(p) {
+          padding: 5px;
+          background-color: black;
+          color: white;
+        }
+        ::slotted(p[slot="foo"]) {
+          background-color: gray;
+        }
+      </style>
+
+      <slot name="foo">Default text for foo</slot>
+      <slot name="bar">Default text for bar</slot>
+      <slot name="baz">Default text for baz</slot>
+    </template>
+
+    <yw-custom-element>
+      <p slot="foo">foo</p>
+      <p slot="bar">bar</p>
+      <p slot="baz">baz</p>
+    </yw-custom-element>
+    <script type="module" defer src="slots.example.js"></script>
+  </body>
+</html>
