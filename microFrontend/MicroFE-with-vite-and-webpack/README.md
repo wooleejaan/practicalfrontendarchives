@@ -5,7 +5,7 @@ pnpm을 사용하며, remote를 serve할 때는 yarn을 사용해 remoteEntry.js
 
 ## 튜토리얼 설명 문서
 
-- [micro frontend using vite, webpack, monorepo](https://github.com/wooleejaan/yw-playgrounds/blob/main/__programming/architecture/micro-frontend/using-vite-and-pnpm/_.md)
+- [micro frontend using vite, webpack, monorepo](./_docs/_.md)
 
 ## 참고자료
 
