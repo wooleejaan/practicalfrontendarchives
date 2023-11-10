@@ -12,3 +12,4 @@
 - [reset css입니다](./reset-css/README.md)
 - [web component를 구현합니다](./webComponents/README.md)
 - [ts를 보다 구체적으로 작성합니다](./writingTypesMoreSpecifically/README.md)
+- [다양한 웹(프론트,백엔드) 환경에서 zod를 사용해 외부 데이터를 검증합니다](./zod-with-nextjs/README.md)
