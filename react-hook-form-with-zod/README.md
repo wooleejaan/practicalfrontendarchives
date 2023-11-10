@@ -22,7 +22,7 @@
 - zod를 사용하면, input마다 required를 검증할 필요 없습니다.getValues도 필요 없습니다.
 - 검증을 분산하지 않고, zod schema를 통해 통일할 수 있습니다.
 
-[rhf + zod에 실제 api 검증도 zod로 하는 form 예제](./components/components/form-with-rhf-and-zod-and-server.tsx)
+[rhf + zod에 실제 api 검증도 zod로 하는 form 예제](./components/form-with-rhf-and-zod-and-server.tsx)
 
 - 실제 api를 구현하고, zod schema를 활용해 서버 단에서도 validation을 진행합니다.
 

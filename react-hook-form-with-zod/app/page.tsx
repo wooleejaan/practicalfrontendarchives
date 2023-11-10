@@ -2,7 +2,7 @@
 // import FormWithReactHookForm from "@/components/form-with-rhf";
 // import FormWithReactHookFormAndZod from "@/components/form-with-rhf-and-zod";
 
-import FormWithReactHookFormAndZodAndServer from "@/components/components/form-with-rhf-and-zod-and-server";
+import FormWithReactHookFormAndZodAndServer from "@/components/form-with-rhf-and-zod-and-server";
 
 export default function Home() {
   return (
