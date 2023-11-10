@@ -19,9 +19,7 @@ zod(schema validator like ZOD)와 함께 외부 데이터를 검증하는 아키
 
 [LocalStorage](./examples/local-storage/cart.tsx)
 
-- 위와 같이 마찬가지 이유로 zod와 함께 사용하는 게 더 안전하고, 코드도 깔끔하다.
-
-URL (domain.com?id=5&color=blue)
+[URL (domain.com?id=5&color=blue)](./examples/url-as-state/product2.tsx)
 
 ## References
 
