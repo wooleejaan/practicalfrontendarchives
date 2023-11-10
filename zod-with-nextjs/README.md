@@ -17,7 +17,10 @@ zod(schema validator like ZOD)와 함께 외부 데이터를 검증하는 아키
 - rhf과 같은 라이브러리로 form data를 클라이언트 측에서 관리하더라도, 결국 이 form data를 백엔드로 제출해야 하므로 zod와 같은 스키마 검증 도구가 필요하다.
 - 보다 자세한 코드는 [여기](https://github.com/wooleejaan/yw-frontend/blob/main/react-hook-form-with-zod/components/form-with-rhf-and-zod-and-server.tsx)에서 확인할 수 있다.
 
-LocalStorage
+[LocalStorage](./examples/local-storage/cart.tsx)
+
+- 위와 같이 마찬가지 이유로 zod와 함께 사용하는 게 더 안전하고, 코드도 깔끔하다.
+
 URL (domain.com?id=5&color=blue)
 
 ## References
