@@ -8,7 +8,7 @@
 - [spa 환경에서 ui state와 url을 동기화](./managing-ui-state-through-url/README.md)
 - [vanilla js로 memoize 함수를 구현](./memoizeWithCache/README.md)
 - [MFE 구현](./microFrontend/README.md)
-  Module Federation(Vite, Webpack), Turborepo
+  - Module Federation(Vite, Webpack), Turborepo
 - [rhf과 zod](./react-hook-form-with-zod/README.md)
 - [reset css](./reset-css/README.md)
 - [web component](./webComponents/README.md)
