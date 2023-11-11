@@ -2,6 +2,8 @@
 
 ## Features
 
+[Documentation](./_docs/_.md)
+
 ### Architecture
 
 FE Architecture는 [다이어그램](./architecture.dio)으로 확인할 수 있습니다.
