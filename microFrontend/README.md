@@ -4,11 +4,13 @@
 
 - [webpack5로 구현한 MF](./simpleMicroFE/README.md)
 - [vite plugin, vite plugin + webpack5로 구현한 MF, simple Monorepo](./MicroFE-with-vite-and-webpack/README.md)
+- [turborepo tutorial](./monorepo/README.md)
 
 ## References
 
 - [Micro Frontend components with React Module federation](https://medium.com/@ian.rolfe/micro-frontend-components-with-react-module-federation-cc2b701058a6)
 - [create-mf-app | CLI app to create Module Federation applications](https://github.com/jherr/create-mf-app)
+- [MFE Architecture In-Depth: Build-time & Runtime, Routing, Shared State and Much More!](https://www.youtube.com/watch?v=4b9LSUZjtzE)
 
 ### to be read
 
