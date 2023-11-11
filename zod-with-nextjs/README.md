@@ -38,13 +38,21 @@ zod(schema validator like ZOD)와 함께 외부 데이터를 검증하는 아키
 
 ![Alt text](./public/image1.png)
 
-[Third party API]()
-
-백엔드도 서드파티 api를 사용해 외부 데이터를 받을 수 있습니다. 이에 대한 검증 절차가 필요합니다.
-
 [Webhooks]()
 
 예를 들어, 결제 모듈 등을 붙인다고 하면, 응답으로 정보들을 받습니다. 이에 대해 검증 절차가 필요합니다.
+
+[Third party API]()
+
+백엔드도 서드파티 api를 사용해 외부 데이터를 받을 수 있습니다. 이에 대한 검증 절차가 필요합니다.<br>
+
+중앙에서 사용할 zod를 작성하고, zod를 활용해 type까지 작성한 뒤, 이를 백/프론트 모두에서 활용한다면, 외부 데이터를 검증하는 제어권을 우리가 가져올 수 있습니다.
+
+서드파티, 웹훅 등에서는 심지어 tRPC를 사용할 수 없으므로, zod와 같은 타입 검증이 필요하다.
+
+- [Validate with zod](./lib/validations.ts)
+- [Extend schema written in zod to incorporate ts](./lib/types.ts)
+- [api with zod](./app/api/form/route.ts)
 
 [Environment Variables]()
 
