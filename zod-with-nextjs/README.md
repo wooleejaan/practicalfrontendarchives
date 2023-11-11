@@ -48,7 +48,7 @@ zod(schema validator like ZOD)와 함께 외부 데이터를 검증하는 아키
 
 중앙에서 사용할 zod를 작성하고, zod를 활용해 type까지 작성한 뒤, 이를 백/프론트 모두에서 활용한다면, 외부 데이터를 검증하는 제어권을 우리가 가져올 수 있습니다.
 
-서드파티, 웹훅 등에서는 심지어 tRPC를 사용할 수 없으므로, zod와 같은 타입 검증이 필요하다.
+서드파티, 웹훅 등에서는 심지어 tRPC를 사용할 수 없으므로, zod와 같은 타입 검증이 필요합니다.
 
 - [Validate with zod](./lib/validations.ts)
 - [Extend schema written in zod to incorporate ts](./lib/types.ts)
@@ -56,19 +56,29 @@ zod(schema validator like ZOD)와 함께 외부 데이터를 검증하는 아키
 
 [Environment Variables]()
 
-환경변수를 앱에 로드할 때, 문제가 발생할 수 있습니다.
+환경변수를 앱에 로드할 때, 문제가 발생할 수 있습니다.<br>
+zod로 파싱해주면, 자동완성 기능도 적극적으로 사용할 수 있습니다.
+
+- [env with zod](./env.ts)
+- [use env in api](./app/api/env/route.ts)
 
 [File System]()
 
 파일시스템도 외부 데이터로 간주합니다. 파일 시스템을 읽는 과정에서도 충분히 문제가 발생할 수 있습니다.
 
+- [validate json with zod](./app/api/file-system/route.ts)
+
 [URL]()
 
 백엔드도 프론트엔드와 마찬가지로 Url에서 데이터를 가져올 수 있습니다.
 
+- [validate url in server component](./examples/product-server/product3.tsx)
+
 [ORM]()
 
 데이터베이스 서버에서 데이터를 불러오는 것도 검증 절차를 필요로 합니다.
+
+- [prisma with zod](./examples/prisma-server/product-page.tsx)
 
 ## References
 
