@@ -10,7 +10,7 @@
 
 3. 컴포넌트를 제작하고 공통 컴포넌트로 만들고 싶을 때, 똑같은 과정을 밟으며 turborepo-tutorial/packages에 패키지로 등록합니다.
 
-4. 2개의 앱이 존재합니다.
+4. 2개의 앱이 존재합니다. movies는 host, playlist는 remote 앱 역할을 합니다. 이를 위해 craco로 webpack의 Module Federation을 사용합니다.
 
 - turborepo-tutorial/apps/movies/
 - turborepo-tutorial/apps/playlist/
@@ -33,3 +33,4 @@ FE Architecture는 [다이어그램](./architecture.dio)으로 확인할 수 있
 ## References
 
 - [Creating a new monorepo](https://turbo.build/repo/docs/getting-started/create-new)
+- [mf-router6 github link](https://github.com/jherr/mf-router6)
