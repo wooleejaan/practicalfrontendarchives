@@ -7,6 +7,10 @@
 1. turborepo-tutorial/packages/ui/index.tsx에서 ui를 관리합니다. mantine ui를 사용합니다.
 2. turborepo-tutorial/packages/store/index.tsx에서 store를 관리합니다. Zustand를 사용합니다.
 3. 컴포넌트를 제작하고 공통 컴포넌트로 만들고 싶을 때, 똑같은 과정을 밟으며 turborepo-tutorial/packages에 패키지로 등록합니다.
+4. 2개의 앱이 존재합니다.
+
+- turborepo-tutorial/apps/movies/
+- turborepo-tutorial/apps/playlist/
 
 ### Architecture
 
