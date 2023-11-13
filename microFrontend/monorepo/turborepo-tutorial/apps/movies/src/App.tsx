@@ -1,7 +1,8 @@
 import React from "react";
 import { AppShell } from "ui";
 
-import MoviesContent from "./MoviesContent";
+import { Playlist } from "playlist-content";
+import { MoviesContent } from "movies-content";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         },
         {
           path: "/playlist",
-          element: () => <div>Playlist!!</div>,
+          element: Playlist,
         },
       ]}
       navLinks={[
