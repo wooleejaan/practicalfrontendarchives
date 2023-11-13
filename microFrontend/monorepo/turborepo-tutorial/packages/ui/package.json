@@ -13,11 +13,16 @@
   "devDependencies": {
     "@turbo/gen": "^1.10.12",
     "@types/node": "^20.5.2",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
     "eslint-config-custom": "workspace:*",
-    "react": "^18.2.0",
+    "react": "^18.1.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.2.6",
+    "@mantine/hooks": "^4.2.6",
+    "react-router-dom": "6.3.0"
   }
 }
