@@ -1,0 +1,9 @@
+.root {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.root h2 {
+  margin-bottom: 20px;
+}
