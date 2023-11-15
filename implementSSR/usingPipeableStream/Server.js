@@ -12,6 +12,7 @@ const bootstrapScripts = [];
 const bootstrapCSS = [];
 const staticPathRoot = "ssr-client/build/static";
 
+// 클라이언트에서 build를 통해 생성한 정적 js, css를 읽어와 응답합니다.
 const ReadDirectoryContentToArray = (folderPath, array) => {
   fs.readdir(path.join(__dirname, folderPath), (err, files) => {
     if (err) {

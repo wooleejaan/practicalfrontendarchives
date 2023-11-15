@@ -154,6 +154,7 @@ const bootstrapScripts = [];
 const bootstrapCSS = [];
 const staticPathRoot = "ssr-client/build/static";
 
+// 클라이언트에서 build를 통해 생성한 정적 js, css를 읽어와 응답합니다.
 const ReadDirectoryContentToArray = (folderPath, array) => {
   fs.readdir(path.join(__dirname, folderPath), (err, files) => {
     if (err) {
@@ -206,6 +207,9 @@ app.listen(port, () => {
 ```
 
 /ssr-client/src/index.js 파일을 아래와 같이 변경합니다.
+
+Server.js에서 ReactDOMServer를 사용했다면,<br>
+여기서는 ReactDOMClient를 사용해, hydrate을 진행합니다.
 
 ```js
 // /ssr-client/src/index.js
