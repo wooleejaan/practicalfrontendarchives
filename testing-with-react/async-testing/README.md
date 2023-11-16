@@ -112,12 +112,26 @@ export const server = setupServer(...handlers);
 
 jest.setup.js에서 server를 가져오고 before, after 설정 코드를 통해, 모든 테스트 전에 모의서버가 열리도록 설정합니다.
 
+### Test /GET
+
 그리고 나서, api crud 핸들러를 lib 폴더 하위에 제작합니다.<br>
 각각의 핸들러는 폴더로 먼저 만들어서 내부에서 테스트 코드를 작성할 수도 있습니다.
 
 각각의 폴더 하위에 `__tests__`를 만들면 됩니다.
 
 예를 들어, `__tests__` 폴더 내부에 있는 fetchTodos.test.ts 파일은 유닛테스트만을 포함하므로 tsx를 쓸 필요 없습니다.
+
+![Alt text](./public/image.png)
+
+위 이미지를 보면, describe의 첫번째 인자로 작성한 문구로 유닛테스트가 시작됩니다.<br>
+`it`로 작성한 테스트가 한 줄 한 줄 실행됩니다.<br>
+두번째 it에서는 실패를 테스트합니다. 그래서 일부러 rest.get의 상태코드를 400으로 설정하고 fetch를 진행합니다.<br>
+err 발생 시 빈 배열을 받도록 코드를 작성했으므로 expect에 작성한 0이 통과합니다.
+
+### Test /DELETE, /POST, /PUT
+
+mocks/handlers에 rest.post, rest.put, rest.delete를 작성합니다.<br>
+lib 하위에 각각 핸들러에 맞는 테스트 코드를 작성합니다.
 
 ## References
 
