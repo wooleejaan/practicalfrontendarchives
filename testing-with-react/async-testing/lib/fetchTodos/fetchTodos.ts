@@ -8,7 +8,6 @@ export default async function fetchTodos() {
 
     return todos;
   } catch (err) {
-    console.log(err);
     if (err instanceof Error) console.log(err.message);
     return [];
   }
