@@ -9,4 +9,15 @@ describe("fetchTodos lib function", () => {
     const todosArray = await fetchTodos();
     expect(todosArray.length).toBe(4); // 배열 개수가 4개이기를 기대합니다.
   });
+
+  it("should return an empty array with an error", async () => {
+    server.use(
+      // 실패를 테스트하기 위해 overwrite합니다.
+      rest.get("/todos", (req, res, ctx) => {
+        return res(ctx.status(400));
+      })
+    );
+    const todosArray = await fetchTodos();
+    expect(todosArray.length).toBe(0); // 실패했으므로 빈 배열을 기대합니다.
+  });
 });
