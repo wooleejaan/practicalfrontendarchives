@@ -74,6 +74,53 @@ eslint에 plugin을 추가합니다.
 }
 ```
 
+msw와 whatwg-fetch를 설치합니다.
+
+- whatwg-fetch는 fetch에 대한 폴리필을 제공합니다.
+
+```bash
+npm i -D msw@1.3.0 whatwg-fetch
+```
+
+### mock rest api를 사용하기 위한 세팅
+
+msw 콜백함수에서 3번째 인자인 ctx는 context를 의미합니다. 상태코드나 json과 같은 응답을 보냅니다.
+
+```js
+// mocks/handlers.ts
+
+import { rest } from "msw";
+
+export const handlers = [
+  rest.get("/todos", (req, res, ctx) => {
+    return res(ctx.status(200), ctx.json(/* ... */));
+  }),
+];
+```
+
+server는 아래와 같이 작성합니다.<br>
+핸들러는 여러 개의 rest api를 담고 있으므로 스프레드 연산자를 사용해야 합니다.
+
+```js
+// mocks/server.ts
+
+import { setupServer } from "msw/node";
+import { handlers } from "./handlers";
+
+export const server = setupServer(...handlers);
+```
+
+jest.setup.js에서 server를 가져오고 before, after 설정 코드를 통해, 모든 테스트 전에 모의서버가 열리도록 설정합니다.
+
+그리고 나서, api crud 핸들러를 lib 폴더 하위에 제작합니다.<br>
+각각의 핸들러는 폴더로 먼저 만들어서 내부에서 테스트 코드를 작성할 수도 있습니다.
+
+각각의 폴더 하위에 `__tests__`를 만들면 됩니다.
+
+예를 들어, `__tests__` 폴더 내부에 있는 fetchTodos.test.ts 파일은 유닛테스트만을 포함하므로 tsx를 쓸 필요 없습니다.
+
 ## References
 
-- [How to Mock a REST API Server for Testing with Jest & React Testing Library](https://www.youtube.com/watch?v=k0LPNKWCxx0)
+[How to Mock a REST API Server for Testing with Jest & React Testing Library](https://www.youtube.com/watch?v=k0LPNKWCxx0)<br>
+[setupServer | msw](https://mswjs.io/docs/api/setup-server/)<br>
+[Node.js integration](https://mswjs.io/docs/integrations/node/#test-runner)<br>
