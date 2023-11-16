@@ -19,5 +19,5 @@
 7. [web component를 vanillajs구현 및 실제 프로젝트에 사용합니다.](./webComponents/README.md)<br>
 8. [ts를 보다 구체적으로 작성합니다.](./writingTypesMoreSpecifically/README.md)<br>
 9. [다양한 웹(프론트,백엔드) 환경에서 zod를 사용해 외부 데이터를 검증합니다.](./zod-with-nextjs/README.md)<br>
-10. [jest, msw, testing-react를 연습합니다.](/testing-with-react/README.md)<br>
+10. [jest, msw, testing-library를 연습합니다.](/testing-with-react/README.md)<br>
 11. [SSR 직접 구현 | express와 renderToPipeableStream을 사용합니다.](/implementSSR/README.md)
