@@ -8,7 +8,7 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 /** @type {import('jest').Config} */
 const config = {
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"], // => env 파일을 업로드해야 하므로 가장 중요한 설정입니다.
   testEnvironment: "jest-environment-jsdom",
   preset: "ts-jest",
   verbose: true,
