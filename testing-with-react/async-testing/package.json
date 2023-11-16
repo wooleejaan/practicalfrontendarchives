@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:watch": "jest -watchAll"
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "next": "14.0.2",
