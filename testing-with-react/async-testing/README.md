@@ -154,3 +154,4 @@ lib 하위에 각각 핸들러에 맞는 테스트 코드를 작성합니다.<br
 [setupServer | msw](https://mswjs.io/docs/api/setup-server/)<br>
 [Node.js integration](https://mswjs.io/docs/integrations/node/#test-runner)<br>
 [MSW 에 대해 알아보자 그리고 jest.mock 으로 발생하는 문제를 Node 환경에서 MSW로 해결해보자](https://velog.io/@jeong_lululala/test-msw)<br>
+[MSW로 백엔드 API 모킹하기](https://www.daleseo.com/mock-service-worker/)<br>
