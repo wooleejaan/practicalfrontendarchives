@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import SingletonPage from "@/pages/singleton.page";
-import ObserverPage from "./observer.page";
-import FactoryPage from "./factory.page";
-import ContainerPage from "./container.page";
-import HigherOrderComponentPage from "./hoc.page";
+import ObserverPage from "@/pages/observer.page";
+import FactoryPage from "@/pages/factory.page";
+import ContainerPage from "@/pages/container.page";
+import HigherOrderComponentPage from "@/pages/hoc.page";
+import CompoundComponentPage from "@/pages/compound.page";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/hoc",
     element: <HigherOrderComponentPage />,
+  },
+  {
+    path: "/compound",
+    element: <CompoundComponentPage />,
   },
 ]);
 
