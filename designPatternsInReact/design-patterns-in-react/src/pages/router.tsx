@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SingletonPage from "@/pages/singleton.page";
 import ObserverPage from "./observer.page";
 import FactoryPage from "./factory.page";
+import ContainerPage from "./container.page";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/factory",
     element: <FactoryPage />,
+  },
+  {
+    path: "/container",
+    element: <ContainerPage />,
   },
 ]);
 
