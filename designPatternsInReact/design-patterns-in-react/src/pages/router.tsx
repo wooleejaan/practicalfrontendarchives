@@ -6,6 +6,7 @@ import SingletonPage from "@/pages/singleton.page";
 import ObserverPage from "./observer.page";
 import FactoryPage from "./factory.page";
 import ContainerPage from "./container.page";
+import HigherOrderComponentPage from "./hoc.page";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/container",
     element: <ContainerPage />,
+  },
+  {
+    path: "/hoc",
+    element: <HigherOrderComponentPage />,
   },
 ]);
 
