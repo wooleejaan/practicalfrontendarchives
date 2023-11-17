@@ -3,11 +3,16 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import SingletonPage from "@/pages/singleton.page";
+import ObserverPage from "./observer.page";
 
 const router = createBrowserRouter([
   {
     path: "/singleton",
     element: <SingletonPage />,
+  },
+  {
+    path: "/observer",
+    element: <ObserverPage />,
   },
 ]);
 
