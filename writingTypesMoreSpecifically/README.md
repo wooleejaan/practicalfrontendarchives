@@ -20,5 +20,7 @@ Record와 Mapped를 사용해 객체 타입을 지정합니다.
 
 ## References
 
+[React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)<br>
+
 [Type the onClick event of an element in React (TypeScript)](https://bobbyhadz.com/blog/typescript-react-onclick-event-type)<br>
 [[Typescript] Record 타입 사용하기 (feat. Mapped Type)](https://cheeseb.github.io/typescript/typescript-record/)<br>
