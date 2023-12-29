@@ -21,4 +21,5 @@
 9. [다양한 웹(프론트,백엔드) 환경에서 zod를 사용해 외부 데이터를 검증합니다.](./zod-with-nextjs/README.md)<br>
 10. [jest, msw, testing-library를 연습합니다.](/testing-with-react/README.md)<br>
 11. [SSR 직접 구현 | express와 renderToPipeableStream을 사용합니다.](/implementSSR/README.md)<br>
-12. [React에서 사용하는 디자인 패턴을 구현합니다.](/designPatternsInReact/design-patterns-in-react/README.md)
+12. [React에서 사용하는 디자인 패턴을 구현합니다.](/designPatternsInReact/design-patterns-in-react/README.md)<br>
+13. [Promise.All을 vanillajs로 직접 구현합니다.](/implementPromiseAll/)<br>
