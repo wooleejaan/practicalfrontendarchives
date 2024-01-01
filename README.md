@@ -1,6 +1,6 @@
-# YW-FRONTEND
+# Practical Frontend Archives
 
-다양한 코드를 작성합니다.
+프론트엔드 영역에서의 다양한 코드를 작성합니다.
 
 ## Features
 
