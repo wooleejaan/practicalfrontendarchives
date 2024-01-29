@@ -84,3 +84,7 @@ TDD는 결국 소프트웨어 개발 방법론 중 하나.
 [TDD 레슨](https://teamsparta.notion.site/TDD-3f210acd45f14cde8f7e9d792503c50d)<br>
 [테스트 코드 없이 레거시 코드를 다 감수하시겠습니까?](https://techblog.woowahan.com/2613/)<br>
 [TDD 이야기(TDD에 대한 오해와 진실)](http://cloudrain21.com/test-driven-development)<br>
+
+### To be read
+
+[가독성 좋은 테스트 코드를 작성하는 방법](https://yozm.wishket.com/magazine/detail/2435/)<br>
