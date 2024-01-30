@@ -24,4 +24,4 @@
 12. [React에서 사용하는 디자인 패턴을 구현합니다.](/designPatternsInReact/design-patterns-in-react/README.md)<br>
 13. [Promise.All을 vanillajs로 직접 구현합니다.](/implementPromiseAll/)<br>
 14. [npm package를 배포해봅니다 (changeset, github actions, zod, vitest, typescript)](/publishNPMpackage/)<br>
-15. [jest를 바탕으로 TDD 방법론을 이해합니다.](/learn-jest/)<br>
+15. [frontend plus study](/frontend-plus/)<br>
